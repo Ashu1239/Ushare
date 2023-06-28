@@ -1,22 +1,22 @@
 source 'https://rubygems.org'
 
 
-gem 'rails', '4.2.4'
+gem 'rails', '6.1.7.4'
 gem 'rake'
-gem 'rails-api'
+gem 'rails-api', '>= 0.4.1'
 gem 'json'
 gem 'pusher'
 gem 'spring', :group => :development
 gem 'rack-cors', :require => 'rack/cors'
 gem 'pg'
-gem 'dotenv-rails', :groups => [:development, :test], :require => 'dotenv/rails-now'
+gem 'dotenv-rails', '>= 2.7.6', :groups => [:development, :test], :require => 'dotenv/rails-now'
 gem 'httparty'
 
 group :test do
   gem 'rack-test'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 3.5.0'
   gem 'shoulda'
-  gem 'factory_girl_rails'
+  gem 'factory_girl_rails', '>= 4.6.0'
   gem 'rspec-collection_matchers'
   gem 'pry'
 end
