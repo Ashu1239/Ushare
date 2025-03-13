@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 
-gem 'rails', '4.2.4'
+gem 'rails', '7.0.0'
 gem 'rake'
 gem 'rails-api'
 gem 'json'
