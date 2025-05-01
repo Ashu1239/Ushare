@@ -14,7 +14,7 @@ gem 'httparty'
 
 group :test do
   gem 'rack-test'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 8.0.0'
   gem 'shoulda'
   gem 'factory_girl_rails'
   gem 'rspec-collection_matchers'
