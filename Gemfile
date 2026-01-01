@@ -10,7 +10,7 @@ gem 'spring', :group => :development
 gem 'rack-cors', :require => 'rack/cors'
 gem 'pg'
 gem 'dotenv-rails', :groups => [:development, :test], :require => 'dotenv/rails-now'
-gem 'httparty'
+gem 'httparty', '>= 0.24.0'
 
 group :test do
   gem 'rack-test'
